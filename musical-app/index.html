@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-<title>Musical Shad</title>
+<!--Doctype es una sentencia que indica que voy a trabajar c
+con un documento de HTML-->
+
+<html lang="es"> <!--Aqui inicia mi pagina con la etiqueta de html-->
+<head><!--Aqui en el head esta todo lo que no es visible en la página pero lo hace funcional-->
+    <!--Con lo metodatos  puedo colocar caracteres especial, dar información al CEO para proporcionamiento web-->
+<meta charset="UTF-8"><!--Permite caracteres especiales-->
+  <meta name="description" content="Musical RETRO">
+  <meta name="author" content="Shaden Rubio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Musical Shad</title>
 </head>
 <body>
 
-<h1>Musical Shad</h1>
-<p>Escucha mis 3 canciones de POP</p>
+    <div class="Container-musical">
+        <img src="RETRO.jpg" alt="Imagen musical del RETRO" class="image-portada">
+        
+        <h1>Musical Shad</h1>
+        <p class="pmusical"> born in the wrong era</p>
+
+
+         <div class="lista-canciones">
+            <!--CANCION 1-->
+            <div class="canciones">
+                <p>. ⭐Get Your Number</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Get Your Number ( Audio).mp3" type="audio/mpeg">
+                </audio>
+
+        </div> 
+         <!--CANCION 2-->
+            <div class="canciones">
+                <p>. 🤍Careless Whisper</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 2 -->
+                    <source src="Careless Whisper.mp3" type="audio/mpeg">
+                </audio>
+        
+        </div> 
+         <!--CANCION 3-->
+            <div class="canciones">
+                <p>. 💌Hopelessly Devoted To You</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 3 -->
+                    <source src="Hopelessly Devoted To You (From “Grease”).mp3" type="audio/mpeg">
+                </audio>
+
+        </div> 
+
+
+    </div>
+
 
 </body>
 </html>
